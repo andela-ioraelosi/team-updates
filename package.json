@@ -4,7 +4,7 @@
   "description": "Timely team updates",
   "main": "server.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "jasmine-node test --color --verbose"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,6 @@
     "mongoose": "^4.1.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
     "karma": "^0.13.8",
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.1",
