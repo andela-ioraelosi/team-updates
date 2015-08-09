@@ -7,7 +7,7 @@ var app = require('./../../../../config/express');
 var env = process.env.NODE_ENV;
 var testDB = 'mongodb://localhost/team-updates-test';
 var stagingDB =
-'mongodb://admin:team-updates@ds031193.mongolab.com:31193/team-updates-test';
+'mongodb://admin:team-updates@ds031193.mongolab.com:31193/team-updates-staging';
 
 describe ('Application Server', function () {
 
