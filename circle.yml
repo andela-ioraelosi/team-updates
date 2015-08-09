@@ -1,0 +1,5 @@
+dependencies:
+  pre:
+    - npm install -g jasmine-node karma-cli bower protractor
+    - webdriver-manager update
+    - webdriver-manager serve
